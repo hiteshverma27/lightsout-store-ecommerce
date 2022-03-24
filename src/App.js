@@ -7,7 +7,7 @@ function App() {
     <>
       <Navigation/>
       {/* <Home/> */}
-      <Products/>
+      <Products />
       <Footer/>
     </>
   );
