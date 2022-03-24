@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Navigation() {
+function Navigation() {
     return <nav className="w-100vw flex-space_between-center px-10 py-1 bg-white" id="nav">
         <a href="/index.html">
             <h2>LightsOut</h2>
@@ -30,3 +30,5 @@ export default function Navigation() {
         <span className="material-icons icon-sm" id="menu-icon">menu</span>
     </nav>;
 }
+
+export {Navigation}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Footer() {
+ function Footer() {
     return <footer className="w-100vw pb-2">
       <div className="mx-5 flex flex-wrap flex-space_between-center">
         <div className="mb-auto my-5">
@@ -55,3 +55,5 @@ export default function Footer() {
       </div>
     </footer>;
   }
+
+  export {Footer}

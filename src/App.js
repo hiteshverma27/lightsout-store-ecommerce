@@ -1,13 +1,13 @@
 import "./App.css";
-import Footer from "./components/footer/Footer";
-import Navigation from "./components/navigation/Navigation";
-import { Home} from "./pages";
+import { Navigation, Footer } from "./components";
+import { Products } from "./pages";
 
 function App() {
   return (
     <>
       <Navigation/>
-      <Home/>
+      {/* <Home/> */}
+      <Products/>
       <Footer/>
     </>
   );

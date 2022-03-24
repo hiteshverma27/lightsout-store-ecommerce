@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Header() {
+ function Header() {
     return <header className="relative w-100vw">
       <input type="search" className="input w-100per m-auto flex-center-center" placeholder="Search LightsOut" id="search-mobile" />
       <img className="w-100per img-cover h-100vh " src="https://github.com/hiteshverma27/LightsOut-Store/blob/development/Assets/wallpaperflare.com_wallpaper%20(1).jpg?raw=true" alt="header-img" />
@@ -13,3 +13,5 @@ export default function Header() {
       </div>
     </header>;
   }
+
+  export {Header}
