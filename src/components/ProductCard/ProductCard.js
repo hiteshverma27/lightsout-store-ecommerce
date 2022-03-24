@@ -2,8 +2,8 @@ import React from 'react'
 
 export function ProductCard({id,catagoryName, title,price, inStock, isFavourite, prodImg, rating }) {
   return (
-    <div>
-         <div className="card-v" key={id}>
+    <div key={id}>
+         <div className="card-v">
                <span className="card-v-badge">
                   {isFavourite?<span className="material-icons-outlined icon-s3 card-badge-icon color-red">favorite</span>:<span className="material-icons-outlined icon-s3 card-badge-icon">favorite_border</span>}
                </span>

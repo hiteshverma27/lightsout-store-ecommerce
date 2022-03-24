@@ -16,32 +16,32 @@ import React from 'react'
             <div className="p-2 test-outline">
                <h3>Catagory</h3>
                <form className="my-2" >
-                  <input type="checkbox" id="catagory-opt-1" name="option1" checked/>
-                  <label for="catagory-opt-1"> Posters</label><br/>
+                  <input type="checkbox" id="catagory-opt-1" name="option1"/>
+                  <label htmlFor="catagory-opt-1"> Posters</label><br/>
                   <input type="checkbox" id="catagory-opt-2" name="option2" />
-                  <label for="catagory-opt-2"> Flags</label><br/>
+                  <label htmlFor="catagory-opt-2"> Flags</label><br/>
                </form>
             </div>
             <div className="p-2 test-outline">
                <h3>Rating</h3>
                <form className="my-2" >
                   <input type="radio" id="rating-opt-1" name="option1"/>
-                  <label for="rating-opt-1"> 4 stars and above</label><br/>
+                  <label htmlFor="rating-opt-1"> 4 stars and above</label><br/>
                   <input type="radio" id="rating-opt-2" name="option1" />
-                  <label for="rating-opt-2"> 3 stars and above</label><br/>
+                  <label htmlFor="rating-opt-2"> 3 stars and above</label><br/>
                   <input type="radio" id="rating-opt-3" name="option1"/>
-                  <label for="rating-opt-3"> 2 stars and above</label><br/>
+                  <label htmlFor="rating-opt-3"> 2 stars and above</label><br/>
                   <input type="radio" id="rating-opt-4" name="option1" />
-                  <label for="rating-opt-4"> 1 star and above</label><br/>
+                  <label htmlFor="rating-opt-4"> 1 star and above</label><br/>
                </form>
             </div>
             <div className="p-2 test-outline">
                <h3>Price</h3>
                <form className="my-2" >
                   <input type="radio" id="price-opt-1" name="option1"/>
-                  <label for="price-opt-1"> Price - Low to High</label><br/>
+                  <label htmlFor="price-opt-1"> Price - Low to High</label><br/>
                   <input type="radio" id="price-opt-2" name="option1" />
-                  <label for="price-opt-2"> Price - High to Low</label><br/>
+                  <label htmlFor="price-opt-2"> Price - High to Low</label><br/>
                </form>
             </div>
          </div>
