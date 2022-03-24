@@ -1,5 +1,6 @@
 import "./App.css";
-import { Navigation, Footer } from "./components";
+import {  Footer } from "./components";
+import { Navigation } from "./components/navigation/Navigation";
 import { Products } from "./pages";
 
 function App() {
